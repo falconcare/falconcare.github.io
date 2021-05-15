@@ -1,0 +1,59 @@
+/*GENERALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL*/
+html, body{
+    margin: 0%;
+    background-color: #FFFFFF;
+}
+body{
+    color: #008B8B;
+}
+a{
+    color: #1D1E1F;
+    text-decoration: none;
+}
+#navigation{
+    background-color: #191919;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1; 
+}
+.tab{
+    color: #F0F8FF;
+    margin-right: 3%;
+    font-size: 1.5vw;
+    height: 0.5vh;
+}
+.tab1{
+    color: #F0F8FF;
+    margin-left: 5%;
+    margin-right: 3%;
+    font-size: 2vw;
+    height: 0.5vh;
+    font-weight: bold;
+}
+
+
+
+/*APPOINTMENTSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+#appointment{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+#schedulediv{
+    margin-top: 5%;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.scheduletext{
+    font-size: 1.3vw;
+    color: black;
+}
+
+
+

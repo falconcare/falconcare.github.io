@@ -1,0 +1,59 @@
+html, body{
+    margin: 0%;
+    background-image: linear-gradient(to right, #495350 , #252827);
+    padding-top:2.65%;
+}
+body{
+    color: white;
+}
+a{
+    color: #1D1E1F;
+    text-decoration: none;
+}
+#navigation{
+    background-color: #191919;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1; 
+}
+.tab{
+    color: #F0F8FF;
+    margin-right: 3%;
+    font-size: 1.5vw;
+    height: 0.5vh;
+}
+.tab1{
+    color: #F0F8FF;
+    margin-left: 5%;
+    margin-right: 3%;
+    font-size: 2vw;
+    height: 0.5vh;
+    font-weight: bold;
+}
+
+#bibliography{
+    padding-top: 3%;
+    width: 80%;
+    height: 90vh;
+    padding-left: 5vw;
+    padding-right: 15vw;
+}
+​
+.bibTitle{
+    text-align: center;
+    font-size: 3vw;
+}
+​
+.actualBib{
+    font-size: 1.5vw;
+    margin-left: 5%;
+}
+
+.links{
+    color: #329F5B;
+    margin-right: 2vw;
+}

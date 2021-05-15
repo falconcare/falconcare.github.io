@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="appointments.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <title>Falcon Care</title>
+    </head>
+
+    <style>
+        body {
+            font-family: "Roboto";
+        }
+    </style>
+
+    <body>
+        <div id=navigation>	
+            <a href="index.html"><span class=tab1><b>Falcon Care</b></span></a>
+            <a href="index.html#happyDoctor"><span class=tab>Home</span></a>
+            <a href="index.html#about"><span class=tab>About Us</span></a>
+            <a href="index.html#services"><span class=tab>Services</span></a>
+            <a href="index.html#review"><span class=tab>Reviews</span></a>
+            <a href="index.html#appointment"><span class=tab>Appointments</span></a>
+		</div>
+
+
+
+        <div id=appointment>
+            <div id="formContainer">
+                <h1 class=formtitles>Schedule An Appointment</h1>
+                <div id=infodiv1>
+                    <input placeholder="First Name" class=username1 id=firstname>
+                    <input placeholder="Last Name" class=username1 id=lastname>
+                    <input placeholder="Email" class=username1 id=email>
+                    <input placeholder="Age" class=username1 id=age>
+                    <input placeholder="M / F" class=username1 id=gender>
+                </div>
+                <div id=infodiv3>
+                    <input placeholder="Video / Phone" class=password1 id=call>
+                    <input placeholder="Appointment Date" class=password1 id=date>
+                    <input placeholder="General / Special / Therapy" class=password1 id=type>
+
+                    <div id=schedulediv>
+                        <button onclick="schedule()" id="schedule"><b>Schedule</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+    <script src="appointments.js"></script>
+    </body>
+</html>
